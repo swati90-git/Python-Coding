@@ -1,0 +1,12 @@
+ def is_leap(year):
+    if 1900<=year<= (10)**5:
+        if year%100==0 and ((year/100)%4)==0:
+            leap = True
+            return leap
+        elif year%100!=0 and (year%100)%4==0:
+            leap = True
+            return leap
+        else:
+            leap = False
+            return leap
+   
